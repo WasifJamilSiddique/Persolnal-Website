@@ -1,87 +1,20 @@
-.num1{
-    width: 100%;
-    height: 550px;
-    margin-left: 0;
-    background: url("./header-bg.png");
+
+.background{
+    background: url('./header-bg.png')
 }
-.num2{
-    width: 100%;
-    height: 650px;
+.background2{
     background: url('./biography-bg.png');
 }
-.box{
-    padding-left: 90px;
-    float: left;
-    width: 40%;
+#bioSection{
+    position: relative;
+    top: 100px;
 }
-.peter{
-    height: 90%;
-    width: 90%;
+.work-section{
+    position: relative;
+    top: 75px;
 }
-span{
-    color: lightcoral;
-}
-h1{
-    font-size: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-p{
-    font-style: italic;
-    font-size: 23px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.box h1{
-    padding-top: 60px;
-}
-.box p{
-    text-align: justify;
-}
-.btn{
-    font-size: 32px;
-    text-decoration: none;
-    background-color: lightcoral;
-    color: white;
-    font-weight: 800;
-    border-radius: 5px;
-    padding: 10px;
-}
-.num3{
-    background: white;
-    padding-top: 20px;
-    width: 100%;
-    height: 400px;
-    text-align: center;
-}
-.num3 .box{
-    padding-left: 10px;
-    width: 30%;
-}
-.num4{
-    text-align: center;
-    width: 100%;
-    height: 400px;
+.footer-section{
+    position: relative;
     background: url('./footer-bg.png');
-    
-}
-h3{
-    font-style: italic;
-    font-size: 18px;
-}
-.num4 span{
-    color: black;
-    font-size: 20px;
-    display: block;
-}
-.num4 .btn{
-    position: relative;
-    top: 50px;
-    height: 100px;
-    width: 100px;
-    padding: 10px 30px;
-}
-
-.num4 h4{
-    position: relative;
-    font-style: italic;
     top: 150px;
 }
